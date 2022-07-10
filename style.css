@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* --------------------------------- main nav --------------------------------------- */
+.mainnav {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+/* -----------left nav----------- */
+
+.leftnav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#ytlogo {
+    margin-left: 25px;
+}
+/* -----------center nav----------- */
+
+.centernav{
+        width: 50%;
+        display: flex;
+        align-items: center;
+}
+
+.centernav input{
+    width: 45vw;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+
+
+/* -----------right nav----------- */
+
+.rightnav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#profile-icon{
+   border-radius: 100px; 
+}
+/* ------------------------------------ side bar ---------------------------------------------- */
+
+.sidebar {
+    width: 20%;
+
+}
+
+.sidebar p{
+    font-family:Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.sidebar p:hover{
+background-color: lightgray;
+}
+
+.sidebar img{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.shorts img{
+margin-right: 10px;
+}
+
+
+/* ------------------------------------- main content ---------------------------------------- */
+.main-content { 
+
+    display: flex;
+}
+
+.content {
+    width: 90%;
+    background-color: white;
+
+}
+
+.suggestion {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.suggestion button{
+    border-radius: 30px;
+    border-color: lightgray;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.videos {
+    background-color: pink;
+    height: 550px;
+}
+
+/* -----------------------------------------songs------------------------------------ */
+
+.playlist-layout{
+display: flex
+}
